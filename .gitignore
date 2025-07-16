@@ -1,0 +1,38 @@
+# Ignore Python bytecode
+__pycache__/
+*.py[cod]
+
+# Ignore test artifacts
+tests/__pycache__/
+tests/*.log
+tests/*.tmp
+
+# Ignore editor files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Ignore local environment or config
+.env
+.venv/
+CARIBU-matic/
+*.env
+
+# Ignore OS cruft
+.DS_Store
+Thumbs.db
+
+# Ignore cache or temp directories
+tmp/
+*.tmp
+*.bak
+*~
+
+# Ignore logs
+*.log
+
+# Ignore optional output folders (if you use these)
+#archive/
+#LLMarchive/
+#badger_output/
